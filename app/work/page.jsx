@@ -22,14 +22,14 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "Videos-Gab",
+    title: "Descarga Videos",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+      "Aplicativo creado para el fin de descargar publicaciones de noticias de youtube, para la rapida incorporación a Vmix (PUBLICADO EN UN SERVIDOR GRATUITO).",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }, { name: "Python" },, { name: "Bootstrap" }],
+    image: "/assets/work/descarga-videos.png",
+    live: "https://videos-gab.onrender.com/",
+    github: "https://github.com/gab69/DescargaDeVideos.git",
   },
   {
     num: "02",
