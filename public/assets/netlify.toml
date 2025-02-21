@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+  timeouts = { build = 900 }  # 900 segundos (15 minutos)
+
+[build.environment]
+  NODE_VERSION = "18"  # Usa la versión de Node.js que necesites
+
+[build.processing]
+  skip_processing = true
