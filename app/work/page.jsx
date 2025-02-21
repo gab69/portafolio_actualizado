@@ -31,28 +31,111 @@ const projects = [
     live: "https://videos-gab.onrender.com/",
     github: "https://github.com/gab69/DescargaDeVideos.git",
   },
+  
   {
     num: "02",
-    category: "fullstack",
-    title: "project 2",
+    category: "Peliculas GAB",
+    title: "pagina de peliculas",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+      "Aplicativo creado para mostrar el consumo de una Api de Peliculas",
+    stack: [{ name: "React" },{ name: "Html 5" }, { name: "CSS 3" }, { name: "Javascript" }],
+    image: "/assets/work/pelicula.png",
+    live: "https://peliculas-react-gab.netlify.app/",
+    github: "https://github.com/gab69/peliculas-react.git",
   },
   {
     num: "03",
-    category: "frontend",
-    title: "project 3",
+    category: "Halo-Video",
+    title: "Portafolio Gab",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+      "Aplicativo creado para presentacion de una PlayList (PUBLICADO EN UN SERVIDOR GRATUITO)",
+    stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "Javascript" }],
+    image: "/assets/work/halo.png",
+    live: "https://halo-trailer-gab.netlify.app/",
+    github: "https://github.com/gab69/halo.git",
   },
+  
+  {
+    num: "04",
+    category: "Freelancer",
+    title: "Gabriel Freelancer",
+    description:
+      "Aplicativo creado de manera estatica y responsivo, con un diseño amigable (PUBLICADO EN UN SERVIDOR GRATUITO)",
+    stack: [{ name: "Html 5" }, { name: "CSS 3" }],
+    image: "/assets/work/freelancer.png",
+    live: "https://freelancer-gabrc.netlify.app/",
+    github: "https://github.com/gab69/freelancer.git",
+  },
+  {
+    num: "05",
+    category: "Portafolio Universitario",
+    title: "Portafolio Gab",
+    description:
+      "Aplicativo creado para presentacion de trabajos realizados en la universidad, de manera ordenada y optimizada (PUBLICADO EN UN SERVIDOR GRATUITO)",
+    stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "Javascript" }],
+    image: "/assets/work/portafolio.png",
+    live: "https://portafolio-gab.netlify.app/",
+    github: "https://github.com/gab69/portafolio.git",
+  },
+  {
+    num: "06",
+    category: "Camara de Comercio",
+    title: "pagina de CCH",
+    description:
+      "Aplicativo creado para entorno a las practicas pre-profesionales",
+    stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "Javascript" }],
+    image: "/assets/work/CCH.png",
+    live: "https://camara-comercio-huancayo-gab.netlify.app/",
+    github: "https://github.com/gab69/Blog-de-Cafe.git",
+  },
+  {
+    num: "07",
+    category: "Fotos de Trabajos",
+    title: "Pagina de Fotos",
+    description:
+      "Aplicativo creado para publicitar una pequeña empresa, con el objetivo de aumentar los clientes y mostrar la calidad del trabajo (PUBLICADO EN UN SERVIDOR GRATUITO)",
+    stack: [{ name: "Html 5" }, { name: "CSS 3" }],
+    image: "/assets/work/fotos.png",
+    live: "https://servicio-restauracion-imagenes-gab.netlify.app/",
+    github: "https://github.com/gab69/imagenes.git",
+  },
+  {
+    num: "08",
+    category: "Soporte-DRTC",
+    title: "pagina de soporte",
+    description:
+      "Aplicativo creado para facilitar las solicitudes de los usuarios para la creacion de Tickets con el objetivo de que los usuarios soliciten el servicio de Soporte Técnico (PUBLICADO EN UN SERVIDOR GRATUITO)",
+    stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "Javascript" }, { name: "PHP" }, { name: "MySql" }],
+    image: "/assets/work/soporte.png",
+    live: "https://tailor-made-roads.000webhostapp.com/login.php",
+    github: "https://github.com/gab69/DRTC",
+  },
+  {
+    num: "09",
+    category: "Fronted-Store",
+    title: "Portafolio Gab",
+    description:
+      "Aplicativo creado para presentacion de productos disponible para la venta online (PUBLICADO EN UN SERVIDOR GRATUITO)",
+    stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "Javascript" }],
+    image: "/assets/work/fronted-store.png",
+    live: "https://front-store-gab.netlify.app/",
+    github: "https://github.com/gab69/frontend-store.git",
+  },
+  {
+    num: "10",
+    category: "Blog-Cafe",
+    title: "pagina de cafe",
+    description:
+      "Aplicativo creado para mostrar la descripción de la empresa y los servicios que ofrece (PUBLICADO EN UN SERVIDOR GRATUITO)",
+    stack: [{ name: "Html 5" }, { name: "CSS 3" }, { name: "Javascript" }],
+    image: "/assets/work/cafe.png",
+    live: "https://blog-cafe-gab.netlify.app/",
+    github: "https://github.com/gab69/Blog-de-Cafe.git",
+  },
+  
+  
+  
+  
 ];
 
 const Work = () => {
