@@ -21,7 +21,18 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
   {
-    num: "01",
+    num: "11",
+    category: "Videos-Gab",
+    title: "Descarga Videos",
+    description:
+      "Aplicativo creado para el fin de descargar publicaciones de noticias de youtube, para la rapida incorporación a Vmix (PUBLICADO EN UN SERVIDOR GRATUITO).",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }, { name: "Python" },, { name: "Bootstrap" }],
+    image: "/assets/work/drtc.png",
+    live: "https://limpieza-drtc.onrender.com/",
+    github: "https://github.com/gab69/Limpieza-DRTC.git",
+  },
+  {
+    num: "10",
     category: "Videos-Gab",
     title: "Descarga Videos",
     description:
@@ -33,7 +44,7 @@ const projects = [
   },
   
   {
-    num: "02",
+    num: "09",
     category: "Peliculas GAB",
     title: "pagina de peliculas",
     description:
@@ -44,7 +55,7 @@ const projects = [
     github: "https://github.com/gab69/peliculas-react.git",
   },
   {
-    num: "03",
+    num: "08",
     category: "Halo-Video",
     title: "Portafolio Gab",
     description:
@@ -56,7 +67,7 @@ const projects = [
   },
   
   {
-    num: "04",
+    num: "07",
     category: "Freelancer",
     title: "Gabriel Freelancer",
     description:
@@ -67,7 +78,7 @@ const projects = [
     github: "https://github.com/gab69/freelancer.git",
   },
   {
-    num: "05",
+    num: "06",
     category: "Portafolio Universitario",
     title: "Portafolio Gab",
     description:
@@ -78,7 +89,7 @@ const projects = [
     github: "https://github.com/gab69/portafolio.git",
   },
   {
-    num: "06",
+    num: "05",
     category: "Camara de Comercio",
     title: "pagina de CCH",
     description:
@@ -89,7 +100,7 @@ const projects = [
     github: "https://github.com/gab69/Blog-de-Cafe.git",
   },
   {
-    num: "07",
+    num: "04",
     category: "Fotos de Trabajos",
     title: "Pagina de Fotos",
     description:
@@ -100,7 +111,7 @@ const projects = [
     github: "https://github.com/gab69/imagenes.git",
   },
   {
-    num: "08",
+    num: "03",
     category: "Soporte-DRTC",
     title: "pagina de soporte",
     description:
@@ -111,7 +122,7 @@ const projects = [
     github: "https://github.com/gab69/DRTC",
   },
   {
-    num: "09",
+    num: "02",
     category: "Fronted-Store",
     title: "Portafolio Gab",
     description:
@@ -122,7 +133,7 @@ const projects = [
     github: "https://github.com/gab69/frontend-store.git",
   },
   {
-    num: "10",
+    num: "01",
     category: "Blog-Cafe",
     title: "pagina de cafe",
     description:
