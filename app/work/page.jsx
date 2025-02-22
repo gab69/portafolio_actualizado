@@ -22,10 +22,10 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "11",
-    category: "Videos-Gab",
-    title: "Descarga Videos",
+    category: "Limpieza-DRTC",
+    title: "Limpieza de datos del personal DRTC",
     description:
-      "Aplicativo creado para el fin de descargar publicaciones de noticias de youtube, para la rapida incorporación a Vmix (PUBLICADO EN UN SERVIDOR GRATUITO).",
+      "Aplicativo creado para facilitar la visualizacion de las asistencias del personal. (PUBLICADO EN UN SERVIDOR GRATUITO).",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }, { name: "Python" },, { name: "Bootstrap" }],
     image: "/assets/work/drtc.png",
     live: "https://limpieza-drtc.onrender.com/",
